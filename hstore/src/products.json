@@ -1,0 +1,39 @@
+ [
+    {
+      "id": 1,
+      "image": "/images/images-removebg-preview.png",
+      "title": "Arnica montana",
+      "price":"₹ 200"
+    },
+    {
+      "id": 2,
+      "image": "/images/images1-removebg-preview.png",
+      "title": "Aftabs Immunity Tablets",
+      "price":"₹ 200"
+    },
+    {
+      "id": 3,
+      "image": "/images/images2-removebg-preview.png",
+      "title": "Dr. Batras Immunity Tablets",
+      "price":"₹ 200"
+    },
+    {
+      "id": 4,
+      "image": "/images/images3-removebg-preview.png",
+      "title": "Aesculus Pentarkan",
+      "price":"₹ 200"
+    },
+    {
+      "id": 5,
+      "image": "/images/images4-removebg-preview.png",
+      "title": "Hydronil",
+      "price":"₹ 200"
+    },
+    {
+      "id": 6,
+      "image": "/images/images5-removebg-preview.png",
+      "title": "Nerophos Tablets",
+      "price":"₹ 200"
+    }
+  ]
+  
