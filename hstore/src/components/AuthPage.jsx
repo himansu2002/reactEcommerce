@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import '/src/css/AuthPage.css';
+import Navbar from '../components/Navbar';
 
 const AuthPage = () => {
   const [isSignIn, setIsSignIn] = useState(true);
@@ -26,6 +27,10 @@ const AuthPage = () => {
   };
 
   return (
+    <div>
+      <Navbar/>
+      <br></br>
+      <br></br>
     <div className="auth-container">
       <div className="toggle-buttons">
         <button onClick={handleToggleForm}>{isSignIn ? 'Sign Up' : 'Sign In'}</button>
@@ -48,6 +53,7 @@ const AuthPage = () => {
         </div>
         <button type="submit">{isSignIn ? 'Sign In' : 'Sign Up'}</button>
       </form>
+    </div>
     </div>
   );
 };

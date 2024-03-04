@@ -79,6 +79,12 @@ nav h3 {
   -webkit-background-clip: text; 
   background-clip: text;
 }
+span{
+  padding: 7px;
+  font-size: 13px;
+  font-weight: bolder;
+  color: rgb(32, 38, 47);
+}
 
 @media screen and (max-width: 769px) {
   nav {

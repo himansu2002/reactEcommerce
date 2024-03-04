@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import "/src/css/Navbar.css"
 import { Link } from "react-router-dom";
+import { useCart } from "./CartContext";
 
 const Navbar = () => {
+
+  const{cartItems}=useCart()
+
   const [clicked, setClicked] = useState(false);
 
   const handleClick = () => {
@@ -13,10 +17,11 @@ const Navbar = () => {
       <h3>HSTORE</h3>
       <ul className={clicked ? "navb active" : "navb"}>
         <li>
-          <a href="#">Home</a>
+        <Link to="/" onClick={handleClick}>home</Link>
         </li>
         <li>
-        <Link to="/cart" onClick={handleClick}>Cart</Link>
+        <Link to="/cart" onClick={handleClick}>Cart
+        <span>{cartItems.length}</span ></Link>
         </li>
         <li>
         <Link to="/contact" onClick={handleClick}>Contact</Link>
